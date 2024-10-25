@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class SpotQueryOrderRequest(SignedRequest[SpotOrder]):
     """
     Get the order data. Returns a :class:`odyssey_exchange_api.objects.SpotOrder`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#query-order
     """
     _request_url = BASE_SPOT_URL
     _request_method = "GET"

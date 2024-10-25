@@ -6,8 +6,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class SpotRecentTradesRequest(BaseRequest[list[SpotRecentTrade]]):
     """
     Fetch recent trades for the specified asset. Returns an array of :class:`odyssey_exchange_api.objects.SpotRecentTrade`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#recent-trades-list
     """
 
     _request_url = BASE_SPOT_URL

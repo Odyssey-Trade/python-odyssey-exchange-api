@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class FuturesMyTradesRequest(SignedRequest[list[FuturesMyTrade]]):
     """
     Receives data on the transactions records. Returns an array of :class:`odyssey_exchange_api.objects.FuturesMyTrade`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#transaction-record
     """
 
     _request_url = BASE_FUTURES_URL

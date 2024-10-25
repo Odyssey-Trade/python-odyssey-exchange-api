@@ -6,8 +6,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class FuturesContractsListRequest(BaseRequest[list[FuturesContract]]):
     """
     Get a list of all contracts on the exchange. Returns an array of :class:`odyssey_exchange_api.objects.FuturesContract`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#contracts-list
     """
 
     _request_url = BASE_FUTURES_URL

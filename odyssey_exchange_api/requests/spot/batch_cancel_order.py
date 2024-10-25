@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import SpotBatchCancelOrderResponse
 class SpotBatchCancelOrderRequest(SignedRequest[SpotBatchCancelOrderResponse]):
     """
     Mass cancellation of orders, maximum 10 orders at a time. Returns a :class:`odyssey_exchange_api.responses.SpotBatchCancelOrderResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#batch-cancel-order
     """
 
     _request_url = BASE_SPOT_URL

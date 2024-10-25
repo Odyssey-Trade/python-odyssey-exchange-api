@@ -7,8 +7,6 @@ from odyssey_exchange_api.responses import SpotBatchOrdersResponse
 class SpotBatchOrdersRequest(SignedRequest[SpotBatchOrdersResponse]):
     """
     Place batch orders. Returns a :class:`odyssey_exchange_api.responses.SpotBatchOrdersResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#batch-orders
     """
 
     _request_url = BASE_SPOT_URL

@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import FuturesAccountInfoResponse
 class FuturesAccountInfoRequest(SignedRequest[FuturesAccountInfoResponse]):
     """
     Get account information. Returns a :class:`odyssey_exchange_api.responses.FuturesAccountInfoResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#account-information
     """
 
     _request_url = BASE_FUTURES_URL

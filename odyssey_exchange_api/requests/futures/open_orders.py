@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class FuturesOpenOrdersRequest(SignedRequest[list[FuturesOrder]]):
     """
     Get a list of open orders. Returns an array of :class:`odyssey_exchange_api.objects.FuturesOrder`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#current-order-information
     """
 
     _request_url = BASE_FUTURES_URL

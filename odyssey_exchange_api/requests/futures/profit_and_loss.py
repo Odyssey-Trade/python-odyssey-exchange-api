@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class FuturesProfitAndLossRequest(SignedRequest[list[FuturesProfitAndLoss]]):
     """
     Receives data on the historical profits and losses. Returns an array of :class:`odyssey_exchange_api.objects.FuturesProfitAndLoss`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#profit-and-loss-record
     """
 
     _request_url = BASE_FUTURES_URL

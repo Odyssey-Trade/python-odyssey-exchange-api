@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class FuturesKlineDataRequest(BaseRequest[list[FuturesKlineData]]):
     """
     Retrieve Kline/candlestick data. Returns an array of :class:`FuturesKlineData`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#kline-candlestick-data
     """
 
     _request_url = BASE_FUTURES_URL

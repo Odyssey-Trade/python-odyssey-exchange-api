@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class FuturesOrderInfoRequest(SignedRequest[FuturesOrder]):
     """
     Get the order data. Returns a :class:`odyssey_exchange_api.objects.FuturesOrder`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#order-information
     """
     _request_url = BASE_FUTURES_URL
     _request_method = "GET"

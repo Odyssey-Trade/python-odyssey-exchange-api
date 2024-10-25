@@ -6,8 +6,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class SpotOpenOrdersRequest(SignedRequest[list[SpotOrder]]):
     """
     Get a list of open orders. Returns an array of :class:`odyssey_exchange_api.objects.SpotOrder`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#current-open-orders
     """
 
     _request_url = BASE_SPOT_URL

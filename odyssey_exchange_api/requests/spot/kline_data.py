@@ -6,8 +6,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class SpotKlineDataRequest(BaseRequest[list[SpotKlineData]]):
     """
     Retrieve Kline/candlestick data. Returns an array of :class:`SpotKlineData`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#kline-candlestick-data
     """
 
     _request_url = BASE_SPOT_URL

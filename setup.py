@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="odyssey_exchange_api",
-    version="0.0.5",
+    version="0.0.6",
     author="goduni",
     url="https://github.com/Odyssey-Trade/python-odyssey-exchange-api",
     description="Library for working with odyssey.trade",

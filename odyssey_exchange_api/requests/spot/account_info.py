@@ -6,8 +6,6 @@ from odyssey_exchange_api.responses import SpotAccountInfoResponse
 class SpotAccountInfoRequest(SignedRequest[SpotAccountInfoResponse]):
     """
     Get account information. Returns a :class:`odyssey_exchange_api.responses.SpotAccountInfoResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#account-information
     """
 
     _request_url = BASE_SPOT_URL

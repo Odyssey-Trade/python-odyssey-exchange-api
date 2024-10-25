@@ -12,8 +12,6 @@ from odyssey_exchange_api.responses import FuturesCreateConditionOrderResponse
 class FuturesCreateConditionOrderRequest(SignedRequest[FuturesCreateConditionOrderResponse]):
     """
     Create a new condition order. Returns a :class:`odyssey_exchange_api.responses.FuturesCreateConditionOrderResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#create-condition-order
     """
 
     _request_url = BASE_FUTURES_URL

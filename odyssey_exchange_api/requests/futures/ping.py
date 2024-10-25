@@ -5,8 +5,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class FuturesPingRequest(BaseRequest[dict]):
     """
     This interface checks connectivity to the host. Returns an empty :class:`dict`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#test-connectivity
     """
 
     _request_url = BASE_FUTURES_URL

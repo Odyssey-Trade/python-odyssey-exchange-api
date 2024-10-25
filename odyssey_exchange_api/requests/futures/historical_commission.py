@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class FuturesHistoricalCommissionRequest(SignedRequest[list[FuturesHistoricalCommission]]):
     """
     Receives data on the historical commission. Returns an array of :class:`odyssey_exchange_api.objects.FuturesHistoricalCommission`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#historical-commission-records
     """
 
     _request_url = BASE_FUTURES_URL

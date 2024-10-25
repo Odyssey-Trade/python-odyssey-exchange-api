@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import FuturesCurrentTriggerOrdersResponse
 class FuturesCurrentTriggerOrdersRequest(SignedRequest[FuturesCurrentTriggerOrdersResponse]):
     """
     Get all trigger orders. Returns a :class:`odyssey_exchange_api.responses.FuturesCurrentTriggerOrdersResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#obtain-the-current-trigger-order
     """
 
     _request_url = BASE_FUTURES_URL

@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest, ResponseType
 class FuturesChangeMarginModelRequest(SignedRequest[bool]):
     """
     Change margin model. Returns a :class:`bool`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#change-margin-mode
     """
 
     _request_url = BASE_FUTURES_URL

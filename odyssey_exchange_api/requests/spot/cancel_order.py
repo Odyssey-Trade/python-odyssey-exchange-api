@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import SpotCancelOrderResponse
 class SpotCancelOrderRequest(SignedRequest[SpotCancelOrderResponse]):
     """
     Cancel an order. Returns a :class:`odyssey_exchange_api.responses.SpotCancelOrderResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#cancel-order
     """
 
     _request_url = BASE_SPOT_URL

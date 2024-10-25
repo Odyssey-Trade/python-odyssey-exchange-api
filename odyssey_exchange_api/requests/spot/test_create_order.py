@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class SpotTestCreateOrderRequest(SignedRequest[dict]):
     """
     Create a new test order. Returns an empty :class:`dict`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#test-new-order
     """
 
     _request_url = BASE_SPOT_URL

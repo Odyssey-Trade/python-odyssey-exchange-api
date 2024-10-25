@@ -6,8 +6,6 @@ from odyssey_exchange_api.requests.base import SignedRequest
 class SpotMyTradesRequest(SignedRequest[list[SpotMyTrade]]):
     """
     Get a list of your own trades. Returns an array of :class:`SpotMyTrade`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#trading-records
     """
 
     _request_url = BASE_SPOT_URL

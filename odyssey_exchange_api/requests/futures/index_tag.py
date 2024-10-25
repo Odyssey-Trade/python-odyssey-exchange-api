@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class FuturesIndexTagPriceRequest(BaseRequest[FuturesIndexTagPrice]):
     """
     Getting index and tag prices and additional funding data. Returns a :class:`odyssey_exchange_api.objects.FuturesIndexTagPrice`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#obtain-index-tag-price
     """
 
     _request_url = BASE_FUTURES_URL

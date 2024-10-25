@@ -12,8 +12,6 @@ from odyssey_exchange_api.responses import FuturesOrderIDResponse
 class FuturesCreateOrderRequest(SignedRequest[FuturesOrderIDResponse]):
     """
     Create a new order. Returns a :class:`odyssey_exchange_api.responses.FuturesOrderIDResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#create-new-order
     """
 
     _request_url = BASE_FUTURES_URL

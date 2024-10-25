@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import FuturesDepthResponse
 class FuturesDepthRequest(BaseRequest[FuturesDepthResponse]):
     """
     Market depth data. Returns a :class:`odyssey_exchange_api.responses.FuturesDepthResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#depth
     """
 
     _request_url = BASE_FUTURES_URL

@@ -8,8 +8,6 @@ from odyssey_exchange_api.responses import FuturesOrderIDResponse
 class FuturesCancelOrderRequest(SignedRequest[FuturesOrderIDResponse]):
     """
     Cancel an order. Returns an array of :class:`odyssey_exchange_api.responses.FuturesOrderIDResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#cancel-order
     """
 
     _request_url = BASE_FUTURES_URL

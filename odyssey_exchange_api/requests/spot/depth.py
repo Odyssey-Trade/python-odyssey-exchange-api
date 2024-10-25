@@ -6,8 +6,6 @@ from odyssey_exchange_api.responses import SpotDepthResponse
 class SpotDepthRequest(BaseRequest[SpotDepthResponse]):
     """
     Market depth data. Returns a :class:`odyssey_exchange_api.responses.SpotDepthResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#depth
     """
 
     _request_url = BASE_SPOT_URL

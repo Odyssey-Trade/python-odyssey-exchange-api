@@ -7,8 +7,6 @@ from odyssey_exchange_api.requests.base import SignedRequest, ResponseType
 class FuturesCancelTriggerOrderRequest(SignedRequest[bool]):
     """
     Cancel trigger order. Returns a :class:`bool`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#cancel-trigger-order
     """
 
     _request_url = BASE_FUTURES_URL

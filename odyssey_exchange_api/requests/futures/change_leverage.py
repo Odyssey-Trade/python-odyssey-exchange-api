@@ -7,8 +7,6 @@ from odyssey_exchange_api.requests.base import SignedRequest, ResponseType
 class FuturesChangeLeverageRequest(SignedRequest[bool]):
     """
     Change leverage. Returns a :class:`odyssey_exchange_api.responses.FuturesAccountInfoResponse`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/spot-trading-api#account-information
     """
 
     _request_url = BASE_FUTURES_URL

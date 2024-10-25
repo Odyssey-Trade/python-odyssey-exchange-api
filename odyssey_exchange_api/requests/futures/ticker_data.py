@@ -8,8 +8,6 @@ from odyssey_exchange_api.requests.base import BaseRequest
 class FuturesTickerDataRequest(BaseRequest[FuturesTickerData]):
     """
     Retrieve 24-hour price change data, returns a :class:`odyssey_exchange_api.objects.FuturesTickerData`.
-
-    Source: https://exchangeopenapi.gitbook.io/pri-openapi/openapi-doc/futures-trading-api#id-24hrs-ticker
     """
 
     _request_url = BASE_FUTURES_URL
