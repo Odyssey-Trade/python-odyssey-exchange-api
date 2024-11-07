@@ -12,5 +12,5 @@ class SpotBatchCancelOrderResponse(BaseModel):
 
     success: list[int] = []
     """An array of ID orders that have been canceled"""
-    failed: list[int] = []
+    failed: list[int] | bool = []
     """An array of ID orders that could not be canceled"""
